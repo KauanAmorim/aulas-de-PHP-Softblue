@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script>
+            
+            function funcao(x){
+                if(x % 2 == 0){
+                    y = x / 2;
+                } else {
+                    y = 3 * x + 1;
+                }
+                
+                document.write(y + " ");
+                
+                if(y != 1){
+                    funcao(y);
+                }
+                    
+            }
+            
+        </script>
+    </body>
+</html>
